@@ -11,4 +11,4 @@ image_resource:
 run:
  #path: ./03_task_scripts/task_show_uname.sh
  path: python
- args: [ t.py]
+ args: [ con1/t.py]
