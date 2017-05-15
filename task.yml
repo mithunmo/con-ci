@@ -8,7 +8,10 @@ image_resource:
   type: docker-image
   source: {repository: python, privileged: true}
 
+inputs:
+- name: resource-tutorial
+
 run:
  #path: ./03_task_scripts/task_show_uname.sh
  path: python
- args: [ t.py]
+ args: [ resource-tutorial/t.py]
