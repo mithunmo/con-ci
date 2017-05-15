@@ -1,0 +1,6 @@
+concourse commands
+
+
+  fly targets 
+  flyt -t tutorial target 
+1) fly -t tutorial execute --config task_show_uname.yml
